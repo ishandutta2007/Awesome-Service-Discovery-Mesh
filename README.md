@@ -10,7 +10,7 @@
 
   <p align="center">
     <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-    <a href="https://github.com/ishandutta2007/Awesome-Service-Discovery-Mesh/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Discovery-Mesh?style=flat-square&logo=github&color=38bdf8" alt="GitHub Stars" /></a>
+    <a href="https://github.com/ishandutta2007/Awesome-Service-Discovery-Mesh/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Discovery-Mesh?style=flat-square&logo=github&color=38bdf8" alt="GitHub_Stars" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Service-Discovery-Mesh/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Service-Discovery-Mesh?style=flat-square&logo=github&color=818cf8" alt="GitHub Forks" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Service-Discovery-Mesh/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Service-Discovery-Mesh?style=flat-square&color=c084fc" alt="License" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Service-Discovery-Mesh/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -72,99 +72,99 @@ The table below outlines leading enterprise hosted and managed SaaS solutions, s
 
 ## 🔓 Open-Source GitHub Projects (Ranked by Stars)
 
-Below are the most prominent, battle-tested open-source projects for service registry, dynamic discovery, edge proxies, and transparent service meshes—ordered strictly in **descending order by GitHub star count**:
+Below are the most prominent, battle-tested open-source projects for service registry, dynamic discovery, edge proxies, and transparent service meshes—ordered strictly in **descending order by GitHub Stars_Count**:
 
-### 1. [Traefik](https://github.com/traefik/traefik) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
+### 1. [Traefik](https://github.com/traefik/traefik) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Architecture**: Dynamic Reverse Proxy, Ingress Controller &amp; Edge Router
 - **Overview**: The leading cloud-native HTTP reverse proxy and load balancer designed to integrate directly with existing service registries (Docker, Swarm, Kubernetes, Consul, etcd, ZooKeeper, and Redis). Traefik automatically discovers new microservices as they spin up and configures routing rules, SSL/TLS certificates (via Let's Encrypt), and circuit breakers in real time without restarting processes or reloading config files.
 
-### 2. [etcd](https://github.com/etcd-io/etcd) [![GitHub stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers)
+### 2. [etcd](https://github.com/etcd-io/etcd) [![GitHub_Stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Architecture**: CP Distributed Key-Value Store &amp; Registry Engine (Raft Consensus)
 - **Overview**: A strongly consistent, distributed key-value store that serves as the backbone of Kubernetes cluster state and service coordination. Offers reliable service registration through leases (heartbeats) and instantaneous change propagation via its streaming gRPC `Watch` API. Heavily utilized in gRPC-native architectures through custom client `NameResolver` implementations.
 
-### 3. [Istio](https://github.com/istio/istio) [![GitHub stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
+### 3. [Istio](https://github.com/istio/istio) [![GitHub_Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go / C++ (CNCF Graduated)
 - **Architecture**: Comprehensive Service Mesh (Sidecar &amp; Ambient Modes)
 - **Overview**: The industry benchmark for enterprise service meshes. Istio injects an Envoy-based data plane proxy beside each application pod (or deploys per-node shared `ztunnel` in **Ambient Mode** to eliminate sidecar restarts). Provides industry-leading Layer 7 traffic routing (`VirtualService`, `DestinationRule`), canary deployments, fault injection, automatic mutual TLS (mTLS), and fine-grained `AuthorizationPolicy` access control.
 
-### 4. [go-zero](https://github.com/zeromicro/go-zero) [![GitHub stars](https://img.shields.io/github/stars/zeromicro/go-zero?style=social&color=white)](https://github.com/zeromicro/go-zero/stargazers)
+### 4. [go-zero](https://github.com/zeromicro/go-zero) [![GitHub_Stars](https://img.shields.io/github/stars/zeromicro/go-zero?style=social&color=white)](https://github.com/zeromicro/go-zero/stargazers)
 - **License**: MIT | **Primary Language**: Go
 - **Architecture**: High-Performance Microservices Framework with Built-in Discovery
 - **Overview**: A web and RPC framework engineered to sustain massive concurrency. Features native client-side load balancing, service registration and discovery via etcd or Consul, adaptive rate limiting, circuit breaking, and automated resilience engineering out of the box with zero external sidecar latency.
 
-### 5. [HashiCorp Consul](https://github.com/hashicorp/consul) [![GitHub stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
+### 5. [HashiCorp Consul](https://github.com/hashicorp/consul) [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
 - **License**: MPL-2.0 / BSL | **Primary Language**: Go
 - **Architecture**: Multi-Platform Service Discovery, KV Store &amp; Service Mesh
 - **Overview**: The reference standard for multi-datacenter, hybrid-cloud service registry and mesh networking. Unifies Kubernetes clusters with legacy VM and bare-metal fleets through built-in health checking, native DNS resolution, and HTTP REST APIs. Features WAN federation, cluster peering, L4/L7 service intentions, and the lightweight **Consul Dataplane** proxy.
 
-### 6. [Envoy](https://github.com/envoyproxy/envoy) [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
+### 6. [Envoy](https://github.com/envoyproxy/envoy) [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: C++ (CNCF Graduated)
 - **Architecture**: Universal Cloud-Native High-Performance Edge &amp; Service Proxy
 - **Overview**: The foundational data plane proxy that powers modern service meshes (including Istio, Kuma, Consul, AWS App Mesh, and Gloo Mesh). Originally built at Lyft, Envoy provides out-of-process Layer 7 filtering, advanced dynamic discovery services (xDS: LDS, RDS, CDS, EDS), active/passive health checking, and transparent TLS termination with negligible memory and CPU overhead.
 
-### 7. [Dapr](https://github.com/dapr/dapr) [![GitHub stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
+### 7. [Dapr](https://github.com/dapr/dapr) [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go (CNCF Incubating)
 - **Architecture**: Distributed Application Runtime &amp; Service Invocation Engine
 - **Overview**: Provides language-agnostic building blocks via standard HTTP and gRPC APIs. Its **Service Invocation** component automates service discovery, name resolution (integrating with mDNS, Consul, or Kubernetes DNS), zero-trust mTLS encryption, automated retries, and distributed tracing without tying application code to specific networking SDKs.
 
-### 8. [Cilium](https://github.com/cilium/cilium) [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+### 8. [Cilium](https://github.com/cilium/cilium) [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go / C / eBPF (CNCF Graduated)
 - **Architecture**: eBPF-Powered Networking, Observability &amp; Sidecarless Service Mesh
 - **Overview**: Revolutionizes service mesh architecture by executing traffic management, L3/L4 filtering, and high-performance routing directly within the Linux kernel using **eBPF**. Cilium Service Mesh can run without sidecar proxies for HTTP/gRPC routing, mutual authentication, and load balancing, drastically reducing latency and memory footprints compared to traditional Envoy sidecars.
 
-### 9. [CoreDNS](https://github.com/coredns/coredns) [![GitHub stars](https://img.shields.io/github/stars/coredns/coredns?style=social&color=white)](https://github.com/coredns/coredns/stargazers)
+### 9. [CoreDNS](https://github.com/coredns/coredns) [![GitHub_Stars](https://img.shields.io/github/stars/coredns/coredns?style=social&color=white)](https://github.com/coredns/coredns/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go (CNCF Graduated)
 - **Architecture**: Modular DNS Server &amp; Kubernetes Internal Service Registry
 - **Overview**: The default in-cluster DNS service discovery engine across standard Kubernetes deployments (replacing legacy `kube-dns`). Operates via a flexible plugin chain (`Corefile`) to dynamically resolve `service.namespace.svc.cluster.local` names directly from the Kubernetes API, complete with caching, rewrite rules, and Prometheus metrics.
 
-### 10. [Apache ZooKeeper](https://github.com/apache/zookeeper) [![GitHub stars](https://img.shields.io/github/stars/apache/zookeeper?style=social&color=white)](https://github.com/apache/zookeeper/stargazers)
+### 10. [Apache ZooKeeper](https://github.com/apache/zookeeper) [![GitHub_Stars](https://img.shields.io/github/stars/apache/zookeeper?style=social&color=white)](https://github.com/apache/zookeeper/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Java
 - **Architecture**: CP Distributed Coordination Engine &amp; Ephemeral Service Registry
 - **Overview**: The battle-tested coordination service behind Apache Kafka, Hadoop, and Solr. Manages dynamic service discovery through hierarchical ephemeral znodes (`/services/{service-name}/instance-id`). Employs the Paxos-variant ZAB consensus protocol to guarantee strong data consistency across distributed clusters during network partitions.
 
-### 11. [Eureka](https://github.com/Netflix/eureka) [![GitHub stars](https://img.shields.io/github/stars/Netflix/eureka?style=social&color=white)](https://github.com/Netflix/eureka/stargazers)
+### 11. [Eureka](https://github.com/Netflix/eureka) [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/eureka?style=social&color=white)](https://github.com/Netflix/eureka/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Java
 - **Architecture**: AP Availability-Prioritized Service Registry (Netflix OSS)
 - **Overview**: Netflix's purpose-built, cross-region service registry designed to favor availability over absolute consistency (AP). Services register via REST APIs and maintain active status through 30-second heartbeats. Clients cache registry catalogs locally, ensuring service resolution continues uninterrupted even during complete Eureka server cluster blackouts.
 
-### 12. [Linkerd](https://github.com/linkerd/linkerd2) [![GitHub stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)
+### 12. [Linkerd](https://github.com/linkerd/linkerd2) [![GitHub_Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Rust / Go (CNCF Graduated)
 - **Architecture**: Ultralight, Simplicity-First Kubernetes Service Mesh
 - **Overview**: Renowned for unmatched operational simplicity and blazing speed. Linkerd utilizes micro-proxies written in memory-safe **Rust** (`linkerd2-proxy`) that incur less than 1ms of p99 latency overhead. Automatically provisions zero-config mutual TLS (mTLS) with 24-hour cryptographic certificate rotations and exponentially weighted moving average (EWMA) load balancing.
 
-### 13. [Apache ShenYu](https://github.com/apache/shenyu) [![GitHub stars](https://img.shields.io/github/stars/apache/shenyu?style=social&color=white)](https://github.com/apache/shenyu/stargazers)
+### 13. [Apache ShenYu](https://github.com/apache/shenyu) [![GitHub_Stars](https://img.shields.io/github/stars/apache/shenyu?style=social&color=white)](https://github.com/apache/shenyu/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Java
 - **Architecture**: Reactive Microservices API Gateway &amp; Registry Integrator
 - **Overview**: An asynchronous, high-performance API gateway engineered for enterprise Java ecosystems. Seamlessly bridges traffic between HTTP and microservice protocols (Dubbo, gRPC, Spring Cloud, Tars) with dynamic service discovery integration supporting etcd, Consul, ZooKeeper, and Nacos.
 
-### 14. [HashiCorp Serf](https://github.com/hashicorp/serf) [![GitHub stars](https://img.shields.io/github/stars/hashicorp/serf?style=social&color=white)](https://github.com/hashicorp/serf/stargazers)
+### 14. [HashiCorp Serf](https://github.com/hashicorp/serf) [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/serf?style=social&color=white)](https://github.com/hashicorp/serf/stargazers)
 - **License**: MPL-2.0 | **Primary Language**: Go
 - **Architecture**: Decentralized Cluster Membership &amp; Gossip-Based Failure Detector
 - **Overview**: A lightweight, decentralized coordination library utilizing the SWIM gossip protocol. Operates without centralized servers or single points of failure, propagating node join/leave events and node outages across thousands of machines in sub-second timeframes with minimal bandwidth overhead.
 
-### 15. [Netflix Ribbon](https://github.com/Netflix/ribbon) [![GitHub stars](https://img.shields.io/github/stars/Netflix/ribbon?style=social&color=white)](https://github.com/Netflix/ribbon/stargazers)
+### 15. [Netflix Ribbon](https://github.com/Netflix/ribbon) [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/ribbon?style=social&color=white)](https://github.com/Netflix/ribbon/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Java
 - **Architecture**: Client-Side IPC Load Balancer with Eureka Discovery Integration
 - **Overview**: The historic foundational client-side load balancing library from the Netflix OSS stack. Integrates directly with Eureka to dynamically inspect healthy instance pools and execute zone-aware, round-robin, and response-time weighted routing. (Largely succeeded by Spring Cloud LoadBalancer in modern cloud deployments).
 
-### 16. [MOSN](https://github.com/mosn/mosn) [![GitHub stars](https://img.shields.io/github/stars/mosn/mosn?style=social&color=white)](https://github.com/mosn/mosn/stargazers)
+### 16. [MOSN](https://github.com/mosn/mosn) [![GitHub_Stars](https://img.shields.io/github/stars/mosn/mosn?style=social&color=white)](https://github.com/mosn/mosn/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Architecture**: Cloud-Native Proxy &amp; Service Mesh Data Plane (Ant Group)
 - **Overview**: An enterprise-grade, memory-efficient proxy developed in Go by Ant Group and battle-tested during Alibaba's 11.11 Global Shopping Festival. Fully compliant with Envoy's xDS APIs, supporting multi-protocol routing (Dubbo, Sofa, HTTP/1.1, HTTP/2) and secure mTLS zero-trust communication.
 
-### 17. [Kuma](https://github.com/kumahq/kuma) [![GitHub stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
+### 17. [Kuma](https://github.com/kumahq/kuma) [![GitHub_Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go (CNCF Incubating)
 - **Architecture**: Multi-Zone, Platform-Agnostic Service Mesh (Kong)
 - **Overview**: Built on top of Envoy by Kong, Kuma delivers a single control plane capable of orchestrating meshes across Kubernetes clusters and bare-metal / VM instances simultaneously. Supports isolated multi-tenant meshes within one control plane, automated multi-zone DNS routing, mTLS, and an intuitive GUI.
 
-### 18. [Traefik Mesh](https://github.com/traefik/mesh) [![GitHub stars](https://img.shields.io/github/stars/traefik/mesh?style=social&color=white)](https://github.com/traefik/mesh/stargazers)
+### 18. [Traefik Mesh](https://github.com/traefik/mesh) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/mesh?style=social&color=white)](https://github.com/traefik/mesh/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Go
 - **Architecture**: Lightweight Kubernetes Service Mesh (SMI Compliant)
 - **Overview**: A straightforward, opt-in service mesh built on the Traefik proxy. Features non-invasive installation where existing cluster services remain unaffected until explicitly configured with Kubernetes annotations or Service Mesh Interface (SMI) resources.
 
-### 19. [SOFARegistry](https://github.com/sofastack/sofa-registry) [![GitHub stars](https://img.shields.io/github/stars/sofastack/sofa-registry?style=social&color=white)](https://github.com/sofastack/sofa-registry/stargazers)
+### 19. [SOFARegistry](https://github.com/sofastack/sofa-registry) [![GitHub_Stars](https://img.shields.io/github/stars/sofastack/sofa-registry?style=social&color=white)](https://github.com/sofastack/sofa-registry/stargazers)
 - **License**: Apache-2.0 | **Primary Language**: Java
 - **Architecture**: Ultra-Large-Scale Production Service Registry (SOFAStack)
 - **Overview**: A production-grade distributed service registry developed by Ant Group to overcome standard registry scaling limits. Features a decoupled three-tier architecture (Session, Data, and Meta clusters) capable of maintaining millions of microservice instances and real-time push subscriptions.
